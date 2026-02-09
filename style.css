@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
   margin: 0;
   padding: 0;
@@ -107,109 +107,9 @@ body {
     font-size: 14px;
     color: #555;
     margin-top: 10px;
-=======
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Background */
-body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #ffd6e8, #fff0f5);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 16px; /* IMPORTANT for mobile edges */
-}
-
-/*Main card */
-.card {
-    background: #ffffffcc;
-    padding: 32px;
-    border-radius: 16px;
-
-    width: 420px;       /* desktop */
-    max-width: 92%;     /* mobile safety */
-
-    text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 
-/* Heading */
-.card h1 {
-    font-size: 26px;
-    margin-bottom: 10px;
-}
 
-/* Hint text */
-.hint {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 24px;
-}
-/* Mobile adjustment ONLY */
-@media (max-width: 480px) {
-    .card h1 {
-        font-size: 22px;
-    }
 
-    .hint {
-        font-size: 13px;
-    }
-}
-
-/* Bututons container */
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap; /* prevents overflow */
-}
-/* YES button */
-#yesBtn {
-    background-color: #ff4d6d;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-/* NO button */
-#noBtn {
-    background-color: #eee;
-    color: #333;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    position: relative;
-}
-
-@keyframes float {
-    0% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(-100px); opacity: 0; }
-}
-
-.heart {
-    position: fixed;
-    bottom: 0;
-    font-size: 20px;
-    animation: float 3s linear forwards;
-}
-.gif {
-    width: 260px;      /* desktop look */
-    max-width: 90%;    /* mobile safe */
-    height: auto;
-
-    margin: 20px 0;
-    border-radius: 12px;
->>>>>>> 379a0687de16b3c04877f638fc9cb7f4643a8e6f
-}
